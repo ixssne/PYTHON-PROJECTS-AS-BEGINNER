@@ -1,0 +1,27 @@
+print('----------------------------------')
+print('WELCOME TO TREASURE HUNT')
+print('----------------------------------')
+print('your mission is to find the treasure\n')
+
+path = input('choose left or right :')
+if path=='left' or path=='LEFT':
+   print('YOU HAVE SAFELY CROSSED THE PATH!!!\n')
+
+   choice2=input('DO YOU CHOOSE TO SWIN ACROSS THE RIVER OR WAIT?? \n'
+   'TYPE SWIM\n''TYPE WAIT\n')
+   if choice2=='wait' or choice2=='WAIT':
+      
+      print('YOU HAVE CHOOSEN TO WAIT WHICH SAVED YOU FROM GETTING ATTACK\n')
+      choice3= input('WHICH COLOR DOOR YOU WOULD LIKE TO CHOOSE?? ')
+      if choice3== 'yellow':
+        print('CONGRATUALTION YOU WON')
+      elif choice3=='blue':
+         print('GAME OVER!! YOU HAVE BEEN EATEN BY BEAST')
+      elif choice3=='red':
+         print('GAME OVER!! YOU HAVE BEEN BURNED BY FIRE')
+      else:
+         print('GAME OVER!!!')
+   else:
+      print('GAME OVER!!!')
+else:
+   print('YOU FELL INTO THE HOLE!! GAME OVER!!')
